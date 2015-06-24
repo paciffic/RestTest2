@@ -1,15 +1,15 @@
 //
-//  RestTest2Tests.swift
-//  RestTest2Tests
+//  RestTestTests.swift
+//  RestTestTests
 //
-//  Created by paciffic on 2015. 6. 24..
+//  Created by paciffic on 2015. 6. 18..
 //  Copyright (c) 2015년 paciffic. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class RestTest2Tests: XCTestCase {
+class RestTestTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  RestTest2
+//  RestTest
 //
-//  Created by paciffic on 2015. 6. 24..
+//  Created by paciffic on 2015. 6. 18..
 //  Copyright (c) 2015년 paciffic. All rights reserved.
 //
 

@@ -13,6 +13,7 @@
 		4BFA7EC91B3A3E07001E1444 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA7EC81B3A3E07001E1444 /* Images.xcassets */; };
 		4BFA7ECC1B3A3E07001E1444 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA7ECA1B3A3E07001E1444 /* LaunchScreen.xib */; };
 		4BFA7ED81B3A3E07001E1444 /* RestTest2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA7ED71B3A3E07001E1444 /* RestTest2Tests.swift */; };
+		4BFA7EE21B3A4A2C001E1444 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA7EE11B3A4A2C001E1444 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +35,8 @@
 		4BFA7EC81B3A3E07001E1444 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4BFA7ECB1B3A3E07001E1444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4BFA7ED11B3A3E07001E1444 /* RestTest2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestTest2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BFA7ED61B3A3E07001E1444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BFA7ED71B3A3E07001E1444 /* RestTest2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestTest2Tests.swift; sourceTree = "<group>"; };
+		4BFA7EE11B3A4A2C001E1444 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../RestTest/RestTestTests/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +108,7 @@
 		4BFA7ED51B3A3E07001E1444 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4BFA7ED61B3A3E07001E1444 /* Info.plist */,
+				4BFA7EE11B3A4A2C001E1444 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -202,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BFA7EE21B3A4A2C001E1444 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
