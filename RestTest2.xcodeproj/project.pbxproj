@@ -65,12 +65,12 @@
 				4BF225A91B3B94BE00BEC2A2 /* json_test.js */,
 			);
 			name = Ref;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4BFA7EB31B3A3E07001E1444 = {
 			isa = PBXGroup;
 			children = (
-				4BF225A81B3B949800BEC2A2 /* Ref */,
 				4BFA7EBE1B3A3E07001E1444 /* RestTest2 */,
 				4BFA7ED41B3A3E07001E1444 /* RestTest2Tests */,
 				4BFA7EBD1B3A3E07001E1444 /* Products */,
@@ -89,6 +89,7 @@
 		4BFA7EBE1B3A3E07001E1444 /* RestTest2 */ = {
 			isa = PBXGroup;
 			children = (
+				4BF225A81B3B949800BEC2A2 /* Ref */,
 				4BFA7EC11B3A3E07001E1444 /* AppDelegate.swift */,
 				4BFA7EC31B3A3E07001E1444 /* ViewController.swift */,
 				4BFA7EC51B3A3E07001E1444 /* Main.storyboard */,
