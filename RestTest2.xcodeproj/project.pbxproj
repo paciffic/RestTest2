@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BF225AA1B3B94BE00BEC2A2 /* json_test.js in Resources */ = {isa = PBXBuildFile; fileRef = 4BF225A91B3B94BE00BEC2A2 /* json_test.js */; };
 		4BFA7EC21B3A3E07001E1444 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA7EC11B3A3E07001E1444 /* AppDelegate.swift */; };
 		4BFA7EC41B3A3E07001E1444 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFA7EC31B3A3E07001E1444 /* ViewController.swift */; };
 		4BFA7EC71B3A3E07001E1444 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BFA7EC51B3A3E07001E1444 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4BF225A91B3B94BE00BEC2A2 /* json_test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = json_test.js; path = ../../../json_test.js; sourceTree = "<group>"; };
 		4BFA7EBC1B3A3E07001E1444 /* RestTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BFA7EC01B3A3E07001E1444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BFA7EC11B3A3E07001E1444 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,9 +59,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BF225A81B3B949800BEC2A2 /* Ref */ = {
+			isa = PBXGroup;
+			children = (
+				4BF225A91B3B94BE00BEC2A2 /* json_test.js */,
+			);
+			name = Ref;
+			sourceTree = "<group>";
+		};
 		4BFA7EB31B3A3E07001E1444 = {
 			isa = PBXGroup;
 			children = (
+				4BF225A81B3B949800BEC2A2 /* Ref */,
 				4BFA7EBE1B3A3E07001E1444 /* RestTest2 */,
 				4BFA7ED41B3A3E07001E1444 /* RestTest2Tests */,
 				4BFA7EBD1B3A3E07001E1444 /* Products */,
@@ -193,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF225AA1B3B94BE00BEC2A2 /* json_test.js in Resources */,
 				4BFA7EC71B3A3E07001E1444 /* Main.storyboard in Resources */,
 				4BFA7ECC1B3A3E07001E1444 /* LaunchScreen.xib in Resources */,
 				4BFA7EC91B3A3E07001E1444 /* Images.xcassets in Resources */,
@@ -407,6 +419,7 @@
 				4BFA7EDD1B3A3E07001E1444 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BFA7EDE1B3A3E07001E1444 /* Build configuration list for PBXNativeTarget "RestTest2Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				4BFA7EE01B3A3E07001E1444 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
