@@ -41,11 +41,9 @@
                                 <rect key="frame" x="123" y="172" width="223" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="JIs-WU-2Fu">
-                                <rect key="frame" x="125" y="227" width="223" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="tfUsername_Return:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="MiJ-M5-Ib8"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LastName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIO-f6-Oui">
                                 <rect key="frame" x="40" y="363" width="79" height="21"/>
@@ -57,6 +55,9 @@
                                 <rect key="frame" x="123" y="359" width="223" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="tfLastName_Return:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="68Y-by-xWa"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FirstName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eb9-PS-iPD">
                                 <rect key="frame" x="42" y="295" width="79" height="21"/>
@@ -68,6 +69,9 @@
                                 <rect key="frame" x="125" y="291" width="223" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="tfFirstName_Return:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="Rfq-io-BHD"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xl1-Q7-ul7">
                                 <rect key="frame" x="227" y="471" width="119" height="30"/>
@@ -78,6 +82,14 @@
                                     <action selector="btnSend_Pushed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="K27-FQ-oNu"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="JIs-WU-2Fu">
+                                <rect key="frame" x="125" y="227" width="223" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="tfEmail_Return:" destination="vXZ-lx-hvc" eventType="editingDidEndOnExit" id="3IK-at-hAE"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>

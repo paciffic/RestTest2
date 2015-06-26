@@ -29,6 +29,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var btnGet: UIButton!
     @IBOutlet weak var btnSend: UIButton!
     
+    @IBAction func tfUsername_Return(sender: AnyObject) {
+            sender.resignFirstResponder()
+    }
+    
+    @IBAction func tfEmail_Return(sender: AnyObject) {
+        sender.resignFirstResponder()
+    }
+    
+    @IBAction func tfFirstName_Return(sender: AnyObject) {
+        sender.resignFirstResponder()
+    }
+    
+    @IBAction func tfLastName_Return(sender: AnyObject) {
+        sender.resignFirstResponder()
+    }
+    
+    
     @IBAction func btnSend_Pushed(sender: AnyObject) {
         print("Send Button was pushed!!!")
         json_encoding()
@@ -153,6 +170,11 @@ class ViewController: UIViewController {
 //            })
 //       
 //        jsonQuery.resume()
+    }
+    
+    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+        tfUsername.endEditing(true) || tfEmail.endEditing(true) || tfFirstName.endEditing(true) || tfLastName.endEditing(true)
+  
     }
     
     // JSON String화를 위한 함수
